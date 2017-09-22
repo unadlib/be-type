@@ -5,6 +5,7 @@ import babelrc from "babelrc-rollup"
 const pgk = require("./package.json")
 const babelConfig = babelrc({
   config: pgk.babel,
+  addExternalHelpersPlugin: false,
 })
 
 export default {
