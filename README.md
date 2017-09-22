@@ -42,7 +42,7 @@ be.Negative(-1); // true
 > be.uint8Array(new Uint8Array()) `equivalent` toString.call(new Uint8Array()) ==== "[object Uint8Array]"
 > etc..
 
-2. if the first letter of the API is **uppercase**, it means not toString.call(value), Custom type returned by call
+2. if the first letter of the API is **Uppercase**, it means not toString.call(value), Custom type returned by call
 
 #### Default built-in type check:
 
