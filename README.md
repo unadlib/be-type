@@ -46,19 +46,19 @@ be.Negative(-1); // true
 
 #### Default built-in type check:
 
-| Interface     |    Spec |
-| :------------ | --------------:|
-| Function      |  plain function |
-| Object        |  plain object |
-| String        |  basic string |
-| Number        |  basic number |
-| Boolean       |  basic boolean |
-| NaN           |  strict equality to `NaN`|
-| Nil           |  `null` or `null` |
-| Empty         |  none length |
-| Infinity      |  strict equality to `Infinity`|
+| Interface     |    Spec                                   |
+| :------------ | -----------------------------------------:|
+| Function      |  plain function                           |
+| Object        |  plain object                             |
+| String        |  basic string                             |
+| Number        |  basic number                             |
+| Boolean       |  basic boolean                            |
+| NaN           |  strict equality to `NaN`                 |
+| Nil           |  `null` or `undefined`                    |
+| Empty         |  none length                              |
+| Infinity      |  strict equality to `Infinity`            |
 | Finite        |  basic number and not `NaN` or `Infinity` |
-| Native        |  pristine native function  |
-| SafeInteger   |  based on Number.isSafeInteger  |
-| Integer       |  based on Number.isInteger  |
-| Element       |  HTML Element |
+| Native        |  pristine native function                 |
+| SafeInteger   |  based on Number.isSafeInteger            |
+| Integer       |  based on Number.isInteger                |
+| Element       |  HTML Element                             |

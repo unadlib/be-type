@@ -1,6 +1,6 @@
 {
   "name": "be-type",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "be-type is based on ECMAScript2015+ proxy feature",
   "main": "dist/index.js",
   "scripts": {
